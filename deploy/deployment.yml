@@ -28,6 +28,10 @@ spec:
         volumeMounts:
         - mountPath: /usr/app/server
           name: minecraft-server
+        ports:
+          - containerPort: 25565
+            name: transport
+            protocol: TCP
       volumes:
       - name: minecraft-server
         persistentVolumeClaim:
