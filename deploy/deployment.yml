@@ -4,6 +4,8 @@ metadata:
   name: minecraft-server
 spec:
   storageClassName: rook-ceph-block
+  accessModes:
+    - ReadWriteOnce
   resources:
     requests:
       storage: 30Gi
