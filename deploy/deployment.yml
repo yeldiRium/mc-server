@@ -1,3 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: minecraft-server-service
+  namespace: minecraft
+spec:
+  selector:
+    workload.user.cattle.io/workloadselector: deployment-minecraft-minecraft-server
+  type: NodePort
+  ports:
+    - port: 25565
+      nodePort: 30420
+---
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
