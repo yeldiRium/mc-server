@@ -21,8 +21,7 @@ Mods
 Modpack
 ----
 
-The Modpack Version is `2.4.0`. This is higher than the recommended version, since
-the newest Minecraft Forge is needed for my additions.
+The Modpack Version is `2.3.0`.
 
 Mods
 ----
@@ -30,4 +29,3 @@ Mods
 To connect to the server, you need to install the following mods manually:
 
 - Buildcraft 7.99.19
-- Railcraft 12.0.0-beta-2
