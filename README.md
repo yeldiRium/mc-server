@@ -14,3 +14,20 @@ copy the new `temp-server` to `/usr/app/server`, so that only new files are over
 and config files are left untouched.
 
 Then we start the server which will notice the config files.
+
+Mods
+====
+
+Modpack
+----
+
+The Modpack Version is `2.4.0`. This is higher than the recommended version, since
+the newest Minecraft Forge is needed for my additions.
+
+Mods
+----
+
+To connect to the server, you need to install the following mods manually:
+
+- Buildcraft 7.99.19
+- Railcraft 12.0.0-beta-2
