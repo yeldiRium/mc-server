@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Download the minecraft server package.
-curl -L https://edge.forgecdn.net/files/2615/411/FTB%20Presents%20Direwolf20%201.12-1.12.2-2.3.0-Server.zip -o ./Server.zip
+curl -L https://media.forgecdn.net/files/2637/279/FTB+Presents+Direwolf20+1.12-1.12.2-2.4.0-Server.zip -o ./Server.zip
 
 # Unpack the server package and remove it afterwards.
 unzip -q Server.zip -d temp-server
